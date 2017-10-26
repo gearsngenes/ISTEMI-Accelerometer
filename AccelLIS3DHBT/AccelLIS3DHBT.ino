@@ -31,6 +31,7 @@ void setup(void) {
   BTSetup();//See code labeled: BTAddition(Connects to Bluetooth)
   
   delay(2000);//Wait 2 seconds
+  // delay() measures time in milliseconds (2000=2000 milliseconds=2 seconds).
   
  //--------------------Prints the Name of Code and the Date it is running------------------------------
   Serial.print("Sketch:   ");   Serial.println(__FILE__);
