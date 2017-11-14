@@ -60,5 +60,5 @@ void loop() {
   serialPrint();//Print all accelerations and Vector sum to the Computer's SERIAL MONITOR
   BTPrint();//Send data to HC-06 (Which in turn, sends data to SMARTPHONE)
 
-  delay(100);//Publish data every 1/10 seconds
+  delay(300);//Publish data every 3/10 seconds
 }
